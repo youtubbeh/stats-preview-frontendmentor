@@ -74,6 +74,7 @@ h3 {
 
 img {
     border-radius: 0 15px 15px 0;
+    display: block; /* img is an inline element, so to remove white space below it on mobile, I needed to make it block or flex */
 }
 
 .tint {
